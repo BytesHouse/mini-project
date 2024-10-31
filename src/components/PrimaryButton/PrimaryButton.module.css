@@ -1,0 +1,14 @@
+.primaryButton {
+  width: 268px;
+  height: 32px;
+  color: white;
+  background-color: #0095f6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.primaryButton:active {
+  position: relative;
+  bottom: 1px;
+}

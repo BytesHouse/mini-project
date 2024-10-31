@@ -1,14 +1,14 @@
 import './App.css'
-
-export function foo() {
-  console.log('Hello World!')
-}
+import Aside from './components/Aside/Aside'
+import PrimaryButton from './components/PrimaryButton/PrimaryButton'
 
 function App() {
 
   return (
     <>
-      <h1>Hello World!</h1>
+      <PrimaryButton text='Log in' />
+      <PrimaryButton text='Sign up' />
+      <Aside />
     </>
   )
 }
