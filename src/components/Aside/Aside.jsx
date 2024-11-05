@@ -6,14 +6,14 @@ import icon3 from '../../assets/icon-3.svg'
 import icon4 from '../../assets/icon-4.svg'
 import icon5 from '../../assets/icon-5.svg'
 import icon6 from '../../assets/icon-6.svg'
-import logo from '../../assets/logo-project.svg'
+import Logo from '../Logo/Logo'
 import user from '../../assets/user.png'
-import SearchMenu from '../SearchMenu/SearchMenu';
+// import SearchMenu from '../SearchMenu/SearchMenu';
 
 const Aside = () => {
     return (
         <aside className={style.aside}>
-            <img width={95} src={logo} />
+            <Logo />
             <SelectorButton icon={icon} text='Home' />
             <SelectorButton icon={icon2} text='Search' />
             <SelectorButton icon={icon3} text='Explore' />
@@ -26,5 +26,7 @@ const Aside = () => {
         </aside>
     )
 }
+
+
 
 export default Aside;

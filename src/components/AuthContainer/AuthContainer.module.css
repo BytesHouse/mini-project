@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center; /* основная ось*/
+  align-items: center; /* перпендикулярная ось */
+  gap: 50px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  border: 1px solid #dbdbdb;
+}
+
+.container input {
+  width: 100%;
+  padding: 11px 8px;
+  border: 1px solid #dbdbdb;
+  outline: none;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+.signup {
+  margin-top: 15px;
+  padding: 20px 40px;
+  border: 1px solid #dbdbdb;
+}
+.signup span {
+  margin-left: 5px;
+  color: #0095f6;
+}
